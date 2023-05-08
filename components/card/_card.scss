@@ -1,0 +1,22 @@
+div {
+    font-family: 'Quicksand', sans-serif;
+}
+img {
+    margin-left: 18px;
+    max-width: 250px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 10;
+    border: 3px black;
+}
+.card {
+    width: 18rem;
+    border: grey solid;
+    border-radius: 10px;
+}

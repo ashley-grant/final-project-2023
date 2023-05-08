@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background: brown;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+section div img {
+    width: 240px;
+    margin: 10px;
+}

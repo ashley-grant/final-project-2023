@@ -1,0 +1,28 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body a button {
+    background-color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.hover-button:hover {
+    color: brown;
+}
+
+.active-button {
+    background-color: rgb(206, 206, 206);
+    border: 2px solid black;
+}
+
+.visited-button {
+    background-color: rgb(206,206,206);
+}
