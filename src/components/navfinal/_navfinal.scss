@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+
 li, a {
     font-size: 18px;
     color:black;
@@ -22,6 +23,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: rgb(146, 191, 180);
 }
 
 header img {
@@ -31,6 +33,11 @@ header img {
 
 .logo {
     cursor: pointer;
+}
+
+.list-element-title {
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .nav-links {
