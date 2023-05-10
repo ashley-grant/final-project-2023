@@ -75,7 +75,7 @@ header img {
 }
 */
 .background-image {
-  background-image: url(/Images/bookshelf.jpeg);
+  background-image: url(/img/bookshelf.jpeg);
 }
 
 .about-section-container, .schedule-section-container, .speakers-section-container, .sponsors-section-container, .register-section-container {
