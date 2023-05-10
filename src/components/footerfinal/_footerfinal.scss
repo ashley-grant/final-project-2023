@@ -1,12 +1,21 @@
 footer li{
     display: inline-block;
+    padding: 20px 20px;
 }
 
 footer img {
+    margin-top: 20px;
     width: 50px;
     height: 50px;
+    margin-left: 10px;
 }
 
-footer {
+.footer {
     background-color: rgb(146, 191, 180);
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    padding: 10px 10px;
 }

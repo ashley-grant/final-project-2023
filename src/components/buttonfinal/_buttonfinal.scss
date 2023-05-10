@@ -14,10 +14,14 @@ body a button {
     border-radius: 5px;
 }
 
+.hover-button {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
 .hover-button:hover {
     color: brown;
 }
-
 .active-button {
     background-color: rgb(206, 206, 206);
     border: 2px solid black;

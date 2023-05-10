@@ -1,5 +1,4 @@
 * {
-  font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -83,6 +82,54 @@ header img {
   padding: 20px 20px;
 }
 
+.ordered-list-style {
+  list-style-position: inside;
+  padding: 20px 20px;
+}
+
+ol li {
+  padding-top: 10px;
+}
+
+section h2 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 30px;
+  padding: 20px 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: max-content 200px 1fr;
+  background-color: rgb(146, 191, 180);
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.paragraph-description {
+  padding: 20px 20px;
+}
+
+.unordered-list-style {
+  padding: 20px 20px;
+  list-style-position: inside;
+}
+
 * {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
@@ -97,6 +144,11 @@ body a button {
   cursor: pointer;
   border: 1px solid black;
   border-radius: 5px;
+}
+
+.hover-button {
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .hover-button:hover {
@@ -114,15 +166,24 @@ body a button {
 
 footer li {
   display: inline-block;
+  padding: 20px 20px;
 }
 
 footer img {
+  margin-top: 20px;
   width: 50px;
   height: 50px;
+  margin-left: 10px;
 }
 
-footer {
+.footer {
   background-color: rgb(146, 191, 180);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text {
+  padding: 10px 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
